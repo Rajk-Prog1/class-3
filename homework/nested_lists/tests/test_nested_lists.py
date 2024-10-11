@@ -27,7 +27,7 @@ class TestNestedLists(object):
     def test_identical_grades(self):
         assert nested_lists(
             [["Amy", 50], ["David", 50], ["Eva", 50], ["John", 60], ["Paul", 60]]
-        ) == ["Amy", "David", "Eva"]
+        ) == ["John", "Paul"]
 
     def test_all_unique_grades(self):
         assert nested_lists(
