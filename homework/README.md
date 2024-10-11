@@ -7,6 +7,6 @@ Bármilyen sorrendben haladhattok a feladatokkal. Viszont talán így a legcéls
 2. [Leap Year](leap_year/description.md)
 3. [Loops](loops/description.md)
 4. [Lists](lists/description.md)
-5. [Split-Join](plit_join/description.md)
+5. [Split-Join](split_join/description.md)
 6. [Print Function](print_function/description.md)
 7. [Nested Lists](nested_lists/description.md)
