@@ -1,0 +1,42 @@
+# Task
+
+Given an integer, **n**, perform the following conditional actions:
+
+- If **n** is odd, return Weird
+- If **n** is even and in the inclusive range of **2** to **5**, return Not Weird
+- If **n** is even and in the inclusive range of **6** to **20**, return Weird
+- If **n** is even and greater than **20**, return Not Weird
+
+# Input Format
+
+A single positive integer, **n**.
+
+# Constraints
+
+1 <= **n** <= 100
+
+# Output Format
+
+Return Weird if the number is weird. Otherwise, return Not Weird.
+
+# Sample Input 0
+
+    3
+# Sample Output 0
+
+    Weird
+# Explanation 0
+
+**n** = 3
+**n** is odd and odd numbers are weird, so return Weird.
+
+# Sample Input 1
+
+    24
+# Sample Output 1
+
+    Not Weird
+# Explanation 1
+
+**n** = 24
+**n** > 20 and **n** is even, so it is not weird.
